@@ -1,0 +1,48 @@
+.box-1{
+    width: 150px;
+    height: 150px;
+    background-color: red
+}
+
+.box-2{
+    width: 150px;
+    height: 150px;
+    background-color: yellow
+}
+
+.relative{
+    width: 50%;
+    background-color: yellow;
+}
+
+.box-1-relative{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: relative;
+    top: 0%;
+    left: 50%;
+}
+
+.absolute{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+.box-1-ab{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+}
+
+.sticky
+{
+    background-color: beige;
+    padding: 1rem;
+    position: sticky;
+    top: 0;
+}
